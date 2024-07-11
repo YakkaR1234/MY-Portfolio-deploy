@@ -1,0 +1,117 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 70px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 150px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.4%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-mob-close {
+  display: none;
+}
+
+.nav-mob-open {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+      margin: 20px 50px;
+  }
+
+  .nav-connect {
+      display: none;
+  }
+
+  .nav-mob-open {
+      display: block;
+      position: fixed;
+      right: 30px;
+      top: 20px;
+      z-index: 3;
+      cursor: pointer;
+  }
+
+  .menu-mob-close {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 30px;
+      cursor: pointer;
+  }
+
+  .nav-menu {
+      position: fixed;
+      top: 0;
+      right: -350px; /* Initially hidden */
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+      background-color: #1F0016;
+      width: 300px;
+      height: 100%;
+      z-index: 2;
+      transition: right 0.5s ease;
+      padding: 20px;
+  }
+
+  .nav-menu.open {
+      right: 0; /* Show menu when open */
+  }
+
+  .nav-menu li {
+      font-size: 30px;
+      padding-left: 20px;
+      flex-direction: row;
+      gap: 20px;
+  }
+}
