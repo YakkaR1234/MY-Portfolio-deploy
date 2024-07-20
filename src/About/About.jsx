@@ -1,4 +1,3 @@
-import React from 'react'
 import './About.css'
 import theme_pattern from ".././assets/theme_pattern.svg"
 import profile_img from ".././assets/profile_img.svg"
@@ -23,8 +22,8 @@ const About = () => {
             <div className="about-skills">
                 <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}}/></div>
                 <div className="about-skill"><p>reactjs</p><hr style={{width:"70%"}}/></div>
-                <div className="about-skill"><p>JavaScript</p><hr style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>nodejs</p><hr style={{width:"30%"}}/></div>
+                <div className="about-skill"><p>nodejs</p><hr style={{width:"50%"}}/></div>
+                <div className="about-skill"><p>JavaScript</p><hr style={{width:"30%"}}/></div>
 
             </div>
 
