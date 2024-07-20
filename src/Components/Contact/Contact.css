@@ -73,6 +73,12 @@
     height: 24px;
 }
 
+.linkedin-link {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media (max-width: 1024px) {
     .contact {
         margin: 60px 50px;

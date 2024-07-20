@@ -1,4 +1,3 @@
-import React from 'react'
 import './MyWork.css'
 import theme from '../../assets/theme_pattern.svg'
 import mywork from '../../assets/mywork_data'
