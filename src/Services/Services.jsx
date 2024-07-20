@@ -1,4 +1,3 @@
-import React from 'react'
 import './Services.css'
 import theme_pattern from '../assets/theme_pattern.svg'
 import services_data from '../assets/services_data'
