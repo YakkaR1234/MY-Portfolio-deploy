@@ -1,9 +1,9 @@
 import project1_img from '../assets/weatherApp.png'
 import project2_img from '../assets/carweb.png'
 import project3_img from '../assets/LMS.png'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+import project4_img from '../assets/pending.png'
+import project5_img from '../assets/pending.png'
+import project6_img from '../assets/pending.png'
 
 const mywork_data = [
     {
